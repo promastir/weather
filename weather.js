@@ -14,7 +14,7 @@ require('dotenv').config();
 
 
 
-const GEOCODE_API_KEY = process.env.GEOCODE_API_KEY;
+const GEOCODE_API_KEY = process.env.GEOCODE_API_KEY || 'e42a450ad03a46aeba90dbba37296ccd';
 
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY || '91d820be95074c2bbad143258252202';
 
